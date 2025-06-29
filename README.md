@@ -66,7 +66,7 @@ Examples of Functional Requirements in a system architecture design for a Bookin
 - High-Level Design and Architecture Guidance: While not a detailed design tool, Use Case Diagrams provide a high-level overview of the system's primary functions. This helps architects and designers identify major components, interfaces, and modules required for the system, guiding the initial architectural decisions and functional decomposition.
 
 Below is how a Use case diagram shows the actor and use cases of a booking system:
-
+![A Use case Diagram](images/USER CASE Diagram.drawio.png)
 
 
 

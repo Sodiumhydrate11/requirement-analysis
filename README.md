@@ -66,7 +66,19 @@ Examples of Functional Requirements in a system architecture design for a Bookin
 - High-Level Design and Architecture Guidance: While not a detailed design tool, Use Case Diagrams provide a high-level overview of the system's primary functions. This helps architects and designers identify major components, interfaces, and modules required for the system, guiding the initial architectural decisions and functional decomposition.
 
 Below is how a Use case diagram shows the actor and use cases of a booking system:
-![A Use case Diagram](images/USER CASE Diagram.drawio.png)
+![Use Case Diagram](./alx-booking-uc.png.png)
+
+## Acceptance Criteria 
+Acceptance criteria are those conditions that the built software system/ feature must satisfy to be accepted by a user, customer, or other stakeholders. They are essentially the "definition of work done" from the business perspective, clearly outlining what must be true for a requirement to be considered complete and correct. Acceptance criteria are often written in a structured format, especially when associated with User Stories. A common format is Given-When-Then (from Behavior-Driven Development - BDD)
+A typical example of acceptance criteria for a checkout feature in the booking management system is:
+- Given the user has selected one or more available booking slots
+- And the user is on the checkout page
+- And the user provides valid payment information (e.g., credit card details)
+- When the user clicks "Confirm Booking" / "Pay Now"
+- Then the system successfully processes the payment
+- And the selected booking slot(s) are permanently marked as booked/unavailable
+- And the user is redirected to a "Booking Confirmed" page
+- And a confirmation email is sent to the user's registered email address.
 
 
 

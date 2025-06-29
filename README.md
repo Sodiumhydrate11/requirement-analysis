@@ -26,4 +26,50 @@ Identifying and correcting errors or misunderstandings in the requirement analys
 
 5. Facilitates Effective Testing:
 Clear and measurable requirements makes it easy to create comprehensive test cases. If you know exactly what the software should do, it's easier to verify if it does it correctly, ensuring quality and functionality before release.
+## Key Activities in Requirement Analysis
+Key Activities in Requirement Analysis includes:
+- **Requirement Gathering** : This is the initial and often most challenging activity, it focuses on discovering and extracting the needs, expectations, and constraints. It's about getting the raw information directly from the sources who will use or benefit from the system. We can regard it as actively listening and asking the right questions to uncover both stated and unstated needs.
+- **Requirement Elicitation** : It's the process of actively discovering, extracting, and gathering the needs, expectations, and constraints from all relevant project stakeholders.
+-  **Requirement Documentation** : After requirements are gathered, then comes documentation. This involves systematically recording them in a clear, consistent, and unambiguous format. The goal is to translate the informal input into formal, structured statements that can be understood by all project team members and stakeholders. This creates a single source of truth for the project's scope.
+  It entails writing formal documents like Requirement Specification Documents (RSDs), Software Requirement Specifications (SRS), Use Case documents, User Stories (with acceptance criteria) and creating Requirement Traceability Matrices (RTMs),
+- **Requirement Analysis and Modeling** : This is the phase that entails simply listing requirements; it involves a deeper examination and structuring of the documented needs. The purpose is to identify relationships, resolve conflicts, remove redundancies, fill gaps, and transform raw requirements into a more relatable and understandable set. Modeling uses visual representations to clarify complex aspects and show how different parts of the system will interact.
+- **Requirement Validation** : Requirement Validation ensures that the refined and documented requirements truly represent the stakeholders' needs and that they are complete, consistent, and feasible. It's about getting formal confirmation from stakeholders that "Yes, this is what we actually need." This phase helps prevent misinterpretations before design and development begin.
+
+## Types of Requirements 
+There are two types of requirement needed for any Software to be developed.
+### Functional Requirements FRs
+These entail what the system must do. They describe the specific behaviors, functions, or features of the system that the users expect. Functional requirements are typically expressed in terms of inputs, processes, and outputs. They are important for ensuring the system performs its intended tasks.
+Examples of Functional Requirements in a system architecture design for a Booking Management system like Airbnb or OYO are:
+- User Registration/Login
+- Booking System (booking creation, cancellation and availability)
+- Payment System
+- Admin Management and notifications.
+
+  ### Non-Functional Requirements NFRs
+  These comprise of how the system performs its functions. They describe the qualities, constraints, and attributes of the system, rather than specific behaviors. NFRs are crucial for overall system performance, usability, reliability, and maintainability. Ignoring NFRs can lead to a system that works but is unusable, slow, or insecure.
+  Examples of Non-Functional Requirements in a software architectural design for a Booking Management System are:
+  - Response time (User facing)
+  - Scalability
+  - Security
+  - Availability
+    ## Use Case Diagram
+    A Use Case Diagram is a visual representation of software system design, primarily within the Unified Modeling Language (UML). It represents the functionality of a system from the user's perspective. Basically, it shows who uses the system (actors) and what they can do with it (use cases). It's a high-level view that outlines the system's boundaries, its primary functions, and how different types of users interact with those functions.
+    **Benefits of a Use Case Diagram** :
+    - Clear System Scope and Boundaries: The diagram clearly illustrates what the system does and what it doesn't do (what's inside the boundary vs. outside). This helps prevent "scope creep" by providing a visual agreement on the system's core functionality from the outset, making it easier to identify and manage out-of-scope requests.
+
+- Facilitates Communication Between Stakeholders and Developers: Use Case Diagrams are easy to understand, even for non-technical stakeholders. They provide a common visual language for discussing and validating requirements, ensuring that both business users and technical teams have a shared understanding of the system's purpose and functionality.
+
+- Focuses on User Goals and Interactions: By focusing on actors and their use cases, the diagram inherently specializes on what users want to achieve with the system. This user-centric approach helps ensure that the developed software delivers value and meets the actual needs of its intended users, rather than just implementing technical features.
+
+- Basis for Test Case Generation: Each use case represents a distinct piece of functionality that delivers value to an actor. This makes them an excellent starting point for defining test scenarios and test cases. Testers can use the use case descriptions to design tests that verify the system correctly implements the defined user interactions and outcomes.
+
+- High-Level Design and Architecture Guidance: While not a detailed design tool, Use Case Diagrams provide a high-level overview of the system's primary functions. This helps architects and designers identify major components, interfaces, and modules required for the system, guiding the initial architectural decisions and functional decomposition.
+
+Below is how a Use case diagram shows the actor and use cases of a booking system:
+
+
+
+
+
+
 
